@@ -1,0 +1,11 @@
+numpy
+torch
+pytest
+pyyaml
+tqdm
+matplotlib
+pandas
+black
+ruff
+typing_extensions
+aica-gamelib

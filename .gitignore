@@ -1,0 +1,21 @@
+# Environments
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Agent/assistant instruction files - never commit
+.goosehints
+AGENTS.md
+CLAUDE.md
+
+# Large generated artifacts
+logs/
+data/processed/
+models/checkpoints/*_epoch_*.pt
+
+# Local docs staging area (held back until reviewed)
+docs_staging/

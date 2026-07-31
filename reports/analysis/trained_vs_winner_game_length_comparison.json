@@ -1,0 +1,3036 @@
+{
+  "smartopen_latest": {
+    "combined": {
+      "prefix": "trained_vs_winner_11x11_smartopen",
+      "games": 3000,
+      "trained_local_wins": 0,
+      "avg_turns": 23.020666666666667,
+      "median_turns": 23.0,
+      "min_turns": 21,
+      "max_turns": 32,
+      "count_ge_30": 6,
+      "count_ge_40": 0,
+      "count_ge_50": 0
+    },
+    "batches": [
+      {
+        "batch": "001",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 22.94,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 30,
+        "count_ge_30": 2,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2332.9907009999733,
+        "average_wall_seconds_per_game": 4.665981401999947,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      },
+      {
+        "batch": "002",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 23.14,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 32,
+        "count_ge_30": 3,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2442.2573315000045,
+        "average_wall_seconds_per_game": 4.884514663000009,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      },
+      {
+        "batch": "003",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 22.988,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 28,
+        "count_ge_30": 0,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2341.376535584015,
+        "average_wall_seconds_per_game": 4.6827530711680305,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      },
+      {
+        "batch": "004",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 23.048,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 28,
+        "count_ge_30": 0,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2351.4169173340197,
+        "average_wall_seconds_per_game": 4.70283383466804,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      },
+      {
+        "batch": "005",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 22.984,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 30,
+        "count_ge_30": 1,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2337.837554333004,
+        "average_wall_seconds_per_game": 4.675675108666008,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      },
+      {
+        "batch": "006",
+        "folder_exists": true,
+        "games": 500,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 23.024,
+        "median_turns": 23.0,
+        "min_turns": 21,
+        "max_turns": 28,
+        "count_ge_30": 0,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 500,
+        "failures": [],
+        "total_elapsed_seconds": 2344.7302540829987,
+        "average_wall_seconds_per_game": 4.689460508165998,
+        "trained_local_wins": 0,
+        "trained_policy": "opening_topk_sample",
+        "top_k": 10,
+        "temperature": 1.1,
+        "opening_sample_moves": 5
+      }
+    ]
+  },
+  "old_deterministic_partial": {
+    "combined": {
+      "prefix": "trained_vs_winner_11x11_expandedmodel",
+      "games": 302,
+      "trained_local_wins": 0,
+      "avg_turns": 23.5,
+      "median_turns": 23.5,
+      "min_turns": 21,
+      "max_turns": 26,
+      "count_ge_30": 0,
+      "count_ge_40": 0,
+      "count_ge_50": 0
+    },
+    "batches": [
+      {
+        "batch": "001",
+        "folder_exists": true,
+        "games": 110,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 23.5,
+        "median_turns": 23.5,
+        "min_turns": 21,
+        "max_turns": 26,
+        "count_ge_30": 0,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 110,
+        "failures": [
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0110_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0111_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0112_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0113_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0114_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0115_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0116_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0117_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0118_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0119_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0120_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0121_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0122_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0123_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0124_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0125_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0126_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0127_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0128_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0129_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0130_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0131_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0132_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0133_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0134_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0135_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0136_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0137_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0138_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0139_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0140_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0141_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0142_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0143_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0144_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0145_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0146_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0147_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0148_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0149_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0150_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0151_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0152_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0153_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0154_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0155_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0156_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0157_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0158_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0159_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0160_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0161_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0162_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0163_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0164_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0165_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0166_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0167_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0168_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0169_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0170_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0171_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0172_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0173_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0174_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0175_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0176_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0177_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0178_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0179_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0180_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0181_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0182_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0183_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0184_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0185_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0186_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0187_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0188_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0189_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0190_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0191_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0192_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0193_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0194_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0195_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0196_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0197_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0198_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0199_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0200_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0201_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0202_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0203_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0204_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0205_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0206_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0207_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0208_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0209_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0210_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0211_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0212_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0213_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0214_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0215_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0216_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0217_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0218_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0219_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0220_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0221_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0222_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0223_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0224_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0225_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0226_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0227_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0228_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0229_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0230_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0231_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0232_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0233_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0234_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0235_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0236_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0237_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0238_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0239_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0240_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0241_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0242_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0243_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0244_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0245_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0246_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0247_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0248_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0249_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0250_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0251_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0252_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0253_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0254_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0255_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0256_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0257_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0258_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0259_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0260_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0261_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0262_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0263_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0264_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0265_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0266_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0267_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0268_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0269_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0270_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0271_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0272_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0273_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0274_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0275_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0276_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0277_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0278_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0279_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0280_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0281_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0282_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0283_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0284_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0285_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0286_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0287_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0288_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0289_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0290_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0291_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0292_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0293_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0294_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0295_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0296_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0297_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0298_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0299_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0300_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0301_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0302_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0303_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0304_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0305_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0306_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0307_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0308_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0309_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0310_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0311_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0312_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0313_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0314_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0315_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0316_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0317_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0318_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0319_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0320_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0321_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0322_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0323_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0324_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0325_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0326_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0327_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0328_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0329_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0330_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0331_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0332_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0333_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0334_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0335_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0336_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0337_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0338_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0339_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0340_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0341_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0342_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0343_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0344_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0345_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0346_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0347_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0348_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0349_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0350_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0351_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0352_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0353_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0354_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0355_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0356_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0357_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0358_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0359_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0360_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0361_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0362_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0363_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0364_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0365_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0366_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0367_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0368_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0369_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0370_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0371_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0372_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0373_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0374_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0375_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0376_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0377_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0378_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0379_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0380_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0381_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0382_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0383_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0384_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0385_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0386_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0387_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0388_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0389_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0390_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0391_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0392_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0393_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0394_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0395_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0396_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0397_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0398_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0399_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0400_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0401_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0402_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0403_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0404_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0405_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0406_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0407_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0408_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0409_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0410_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0411_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0412_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0413_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0414_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0415_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0416_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0417_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0418_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0419_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0420_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0421_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0422_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0423_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0424_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0425_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0426_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0427_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0428_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0429_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0430_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0431_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0432_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0433_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0434_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0435_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0436_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0437_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0438_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0439_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0440_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0441_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0442_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0443_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0444_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0445_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0446_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0447_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0448_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0449_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0450_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0451_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0452_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0453_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0454_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0455_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0456_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0457_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0458_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0459_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0460_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0461_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0462_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0463_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0464_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0465_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0466_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0467_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0468_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0469_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0470_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0471_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0472_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0473_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0474_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0475_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0476_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0477_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0478_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0479_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0480_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0481_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0482_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0483_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0484_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0485_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0486_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0487_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0488_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0489_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0490_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0491_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0492_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0493_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0494_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0495_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0496_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0497_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0498_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch001_0499_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          }
+        ],
+        "total_elapsed_seconds": 561.9480887500104,
+        "average_wall_seconds_per_game": 5.108618988636458,
+        "trained_local_wins": 0
+      },
+      {
+        "batch": "002",
+        "folder_exists": true,
+        "games": 192,
+        "summary_exists": true,
+        "trained_local_wins_from_logs": 0,
+        "avg_turns": 23.5,
+        "median_turns": 23.5,
+        "min_turns": 21,
+        "max_turns": 26,
+        "count_ge_30": 0,
+        "count_ge_40": 0,
+        "count_ge_50": 0,
+        "games_completed": 192,
+        "failures": [
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0192_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0193_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0194_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0195_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0196_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0197_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0198_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0199_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0200_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0201_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0202_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0203_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0204_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0205_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0206_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0207_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0208_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0209_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0210_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0211_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0212_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0213_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0214_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0215_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0216_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0217_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0218_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0219_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0220_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0221_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0222_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0223_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0224_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0225_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0226_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0227_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0228_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0229_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0230_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0231_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0232_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0233_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0234_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0235_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0236_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0237_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0238_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0239_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0240_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0241_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0242_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0243_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0244_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0245_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0246_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0247_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0248_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0249_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0250_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0251_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0252_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0253_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0254_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0255_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0256_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0257_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0258_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0259_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0260_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0261_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0262_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0263_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0264_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0265_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0266_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0267_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0268_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0269_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0270_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0271_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0272_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0273_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0274_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0275_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0276_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0277_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0278_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0279_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0280_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0281_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0282_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0283_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0284_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0285_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0286_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0287_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0288_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0289_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0290_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0291_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0292_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0293_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0294_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0295_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0296_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0297_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0298_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0299_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0300_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0301_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0302_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0303_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0304_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0305_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0306_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0307_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0308_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0309_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0310_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0311_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0312_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0313_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0314_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0315_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0316_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0317_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0318_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0319_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0320_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0321_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0322_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0323_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0324_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0325_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0326_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0327_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0328_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0329_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0330_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0331_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0332_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0333_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0334_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0335_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0336_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0337_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0338_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0339_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0340_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0341_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0342_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0343_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0344_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0345_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0346_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0347_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0348_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0349_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0350_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0351_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0352_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0353_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0354_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0355_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0356_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0357_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0358_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0359_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0360_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0361_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0362_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0363_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0364_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0365_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0366_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0367_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0368_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0369_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0370_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0371_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0372_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0373_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0374_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0375_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0376_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0377_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0378_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0379_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0380_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0381_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0382_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0383_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0384_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0385_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0386_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0387_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0388_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0389_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0390_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0391_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0392_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0393_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0394_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0395_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0396_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0397_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0398_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0399_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0400_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0401_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0402_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0403_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0404_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0405_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0406_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0407_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0408_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0409_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0410_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0411_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0412_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0413_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0414_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0415_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0416_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0417_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0418_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0419_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0420_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0421_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0422_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0423_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0424_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0425_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0426_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0427_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0428_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0429_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0430_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0431_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0432_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0433_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0434_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0435_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0436_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0437_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0438_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0439_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0440_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0441_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0442_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0443_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0444_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0445_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0446_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0447_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0448_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0449_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0450_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0451_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0452_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0453_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0454_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0455_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0456_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0457_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0458_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0459_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0460_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0461_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0462_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0463_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0464_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0465_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0466_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0467_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0468_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0469_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0470_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0471_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0472_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0473_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0474_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0475_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0476_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0477_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0478_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0479_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0480_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0481_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0482_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0483_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0484_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0485_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0486_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0487_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0488_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0489_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0490_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0491_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0492_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0493_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0494_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0495_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0496_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0497_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0498_trained_p1",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          },
+          {
+            "game_id": "trained_vs_winner_11x11_expandedmodel_batch002_0499_trained_p2",
+            "error": "BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')"
+          }
+        ],
+        "total_elapsed_seconds": 962.7020893750014,
+        "average_wall_seconds_per_game": 5.014073382161466,
+        "trained_local_wins": 0,
+        "trained_policy": "greedy",
+        "top_k": 5,
+        "temperature": 0.8,
+        "opening_sample_moves": 3
+      },
+      {
+        "batch": "003",
+        "folder_exists": false,
+        "games": 0,
+        "summary_exists": false,
+        "trained_local_wins_from_logs": 0
+      },
+      {
+        "batch": "004",
+        "folder_exists": false,
+        "games": 0,
+        "summary_exists": false,
+        "trained_local_wins_from_logs": 0
+      },
+      {
+        "batch": "005",
+        "folder_exists": false,
+        "games": 0,
+        "summary_exists": false,
+        "trained_local_wins_from_logs": 0
+      },
+      {
+        "batch": "006",
+        "folder_exists": false,
+        "games": 0,
+        "summary_exists": false,
+        "trained_local_wins_from_logs": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "records_path": "data/processed/structured_11x11_expanded_5000_imitation_records.jsonl",
+  "split_path": "data/splits/structured_11x11_expanded_5000_split_manifest.json",
+  "checkpoint": "models/final/imitation_11x11_best.pt",
+  "split": "validation",
+  "device": "cpu",
+  "by_phase": {
+    "opening": {
+      "examples": 11877,
+      "loss": 1.094438569557991,
+      "top1_accuracy": 0.7282141955039151,
+      "top5_accuracy": 0.9267491790856277
+    },
+    "midgame": {
+      "examples": 6137,
+      "loss": 1.0610642988712484,
+      "top1_accuracy": 0.7115854652110152,
+      "top5_accuracy": 0.9491608277660094
+    },
+    "endgame": {
+      "examples": 2978,
+      "loss": 1.5447585321737665,
+      "top1_accuracy": 0.6108126259234385,
+      "top5_accuracy": 0.9073203492276696
+    }
+  }
+}

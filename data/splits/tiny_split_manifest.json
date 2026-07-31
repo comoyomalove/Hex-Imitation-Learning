@@ -1,0 +1,22 @@
+{
+  "schema_version": "split_manifest_v1",
+  "split_method": "by_game_id",
+  "seed": 17,
+  "splits": {
+    "train": [
+      "small_expert_vs_random_000",
+      "small_expert_vs_random_002"
+    ],
+    "validation": [
+      "small_expert_vs_random_001"
+    ],
+    "test": [
+      "small_expert_vs_random_003"
+    ]
+  },
+  "counts": {
+    "train": 2,
+    "validation": 1,
+    "test": 1
+  }
+}

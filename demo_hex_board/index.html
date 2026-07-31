@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hex-ML Demo Board</title>
+  <link rel="stylesheet" href="styles.css?v=5" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Hex-ML Agent Demo</h1>
+      <p>Replay saved 11x11 Hex games, or enable the optional backend for live agent matches.</p>
+    </header>
+
+    <section class="panel mode-panel">
+      <div class="field">
+        <label for="modeSelect">Mode</label>
+        <select id="modeSelect">
+          <option value="replay">Replay saved game</option>
+          <option value="live">Start new live game</option>
+        </select>
+      </div>
+      <div><strong>Current mode:</strong> <span id="modeStatus">-</span><br><small>Live games always map Player A to Player 1/Blue and Player B to Player 2/Red.</small></div>
+      <div><strong>Source:</strong> <span id="sourceStatus">-</span></div>
+    </section>
+
+    <section class="panel controls">
+      <div class="field"><label for="playerA">Player A = Player 1 / Blue / left-to-right</label><select id="playerA"></select></div>
+      <div class="field"><label for="playerB">Player B = Player 2 / Red / top-to-bottom</label><select id="playerB"></select></div>
+      <div class="field wide"><label for="gameSelect">Replay log</label><select id="gameSelect"></select></div>
+      <button id="loadGame">Load game</button>
+    </section>
+
+    <section class="panel legend">
+      <div class="legend-item"><span class="stone p1"></span><strong>Player 1 / Blue</strong>: connects left to right</div>
+      <div class="legend-item"><span class="stone p2"></span><strong>Player 2 / Red</strong>: connects top to bottom</div>
+      <div class="legend-item"><span class="stone last"></span><strong>Gold outline</strong>: latest move</div>
+    </section>
+
+    <section class="panel status-grid">
+      <div><strong>Game:</strong> <span id="gameId">-</span></div>
+      <div><strong>Move:</strong> <span id="moveCounter">0 / 0</span></div>
+      <div><strong>Agent:</strong> <span id="agentName">-</span></div>
+      <div><strong>Selected move:</strong> <span id="selectedMove">-</span></div>
+      <div><strong>Status:</strong> <span id="gameStatus">-</span></div>
+      <div><strong>Winner:</strong> <span id="winner">-</span></div>
+    </section>
+
+    <section class="board-wrap">
+      <div class="hex-frame">
+        <div class="target-line target-top"></div>
+        <div class="target-line target-bottom"></div>
+        <div class="target-line target-left"></div>
+        <div class="target-line target-right"></div>
+        <div class="edge-label label-left">Player 1 target</div>
+        <div class="edge-label label-right">Player 1 target</div>
+        <div id="board" class="hex-board" aria-label="Hex board"></div>
+      </div>
+    </section>
+
+    <section class="panel playback">
+      <button id="first">First</button>
+      <button id="prev">Prev</button>
+      <button id="play">Play</button>
+      <button id="next">Next</button>
+      <button id="last">Last</button>
+      <input id="moveSlider" type="range" min="0" max="0" value="0" />
+    </section>
+
+    <section class="panel">
+      <h2>Demo notes</h2>
+      <ul>
+        <li><strong>Replay saved game</strong> disables agent dropdowns so old logs are not confused with new matches.</li>
+        <li><strong>Start new live game</strong> disables replay selection and requires the optional Python backend.</li>
+        <li>Live backend logs include move timings and are saved under logs/games/demo_live.</li>
+      </ul>
+    </section>
+  </main>
+  <script src="sample_games.js?v=5"></script>
+  <script src="app.js?v=5"></script>
+</body>
+</html>

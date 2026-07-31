@@ -1,0 +1,28 @@
+{
+  "schema_version": "split_manifest_v1",
+  "split_method": "by_game_id",
+  "seed": 42,
+  "splits": {
+    "train": [
+      "structured_mcts_lite_hex_agent_000_expert_p1",
+      "structured_mcts_lite_hex_agent_000_expert_p2",
+      "structured_minimax_lite_hex_agent_000_expert_p2",
+      "structured_smart_hex_agent_000_expert_p1",
+      "structured_smart_hex_agent_000_expert_p2",
+      "structured_threat_adaptive_dijkstra_agent_000_expert_p1",
+      "structured_threat_adaptive_dijkstra_agent_000_expert_p2"
+    ],
+    "validation": [
+      "structured_minimax_lite_hex_agent_000_expert_p1"
+    ],
+    "test": [
+      "structured_hybrid_phase_agent_000_expert_p1",
+      "structured_hybrid_phase_agent_000_expert_p2"
+    ]
+  },
+  "counts": {
+    "train": 7,
+    "validation": 1,
+    "test": 2
+  }
+}

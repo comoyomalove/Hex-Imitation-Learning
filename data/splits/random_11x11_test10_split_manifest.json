@@ -1,0 +1,28 @@
+{
+  "schema_version": "split_manifest_v1",
+  "split_method": "by_game_id",
+  "seed": 17,
+  "splits": {
+    "train": [
+      "small_expert_vs_random_000",
+      "small_expert_vs_random_001",
+      "small_expert_vs_random_002",
+      "small_expert_vs_random_003",
+      "small_expert_vs_random_005",
+      "small_expert_vs_random_007",
+      "small_expert_vs_random_009"
+    ],
+    "validation": [
+      "small_expert_vs_random_004"
+    ],
+    "test": [
+      "small_expert_vs_random_006",
+      "small_expert_vs_random_008"
+    ]
+  },
+  "counts": {
+    "train": 7,
+    "validation": 1,
+    "test": 2
+  }
+}
