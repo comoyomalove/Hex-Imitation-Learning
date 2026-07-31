@@ -39,6 +39,53 @@ PORT = 5050
 GAMES: dict[str, dict[str, Any]] = {}
 
 
+AGENT_CREDITS: dict[str, dict[str, str]] = {
+    "trained_imitation_agent": {
+        "author": "Naz (this project)",
+        "note": "ML policy trained by imitation learning - the subject of this coursework delivery.",
+    },
+    "hackathon_winner_agent": {
+        "author": "Adyansh Gupta",
+        "note": "Hackathon winner agent; used as the expert/teacher for imitation learning.",
+    },
+    "v7_resistance_agent": {
+        "author": "Adyansh Gupta",
+        "note": "Later candidate expert agent by the same author as the hackathon winner.",
+    },
+    "random_legal_agent": {
+        "author": "Naz (this project)",
+        "note": "Utility baseline that picks a uniformly random legal move.",
+    },
+    "hybrid_phase_agent": {
+        "author": "Naz (earlier hackathon work)",
+        "note": "Algorithm-based (search/heuristic) agent, not ML. Used as a structured opponent for data generation.",
+    },
+    "mcts_lite_hex_agent": {
+        "author": "Naz (earlier hackathon work)",
+        "note": "Algorithm-based (lightweight MCTS-style) agent, not ML. Used as a structured opponent for data generation.",
+    },
+    "minimax_lite_hex_agent": {
+        "author": "Naz (earlier hackathon work)",
+        "note": "Algorithm-based (lightweight minimax-style) agent, not ML. Used as a structured opponent for data generation.",
+    },
+    "smart_hex_agent": {
+        "author": "Naz (earlier hackathon work)",
+        "note": "Algorithm-based (Dijkstra/path-based) agent, not ML. Used as a structured opponent for data generation.",
+    },
+    "threat_adaptive_dijkstra_agent": {
+        "author": "Naz (earlier hackathon work)",
+        "note": "Algorithm-based (threat-adaptive Dijkstra-style) agent, not ML. Used as a structured opponent for data generation.",
+    },
+}
+
+
+def agent_credit(agent_id: str) -> dict[str, str]:
+    return AGENT_CREDITS.get(
+        agent_id,
+        {"author": "Unknown / unspecified origin", "note": "External gamelib agent discovered from external_agents/."},
+    )
+
+
 def available_agents() -> list[dict[str, str]]:
     agents = [
         {"id": "trained_imitation_agent", "label": "Trained imitation agent", "kind": "trained"},
@@ -47,6 +94,10 @@ def available_agents() -> list[dict[str, str]]:
     ]
     for spec in discover_gamelib_agents():
         agents.append({"id": spec.name, "label": spec.name, "kind": "external", "path": str(spec.path)})
+    for agent in agents:
+        credit = agent_credit(agent["id"])
+        agent["author"] = credit["author"]
+        agent["note"] = credit["note"]
     return agents
 
 
@@ -278,4 +329,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -66,3 +66,33 @@ use the URL, so the page can reach the backend).
 - The static page's agent dropdowns use a built-in list; with the backend
   running, agents are discovered dynamically from external_agents/.
 - Visual styling is functional rather than final.
+
+## Agent descriptions and provenance
+
+Each dropdown shows a short description of who made the agent and why:
+
+- trained_imitation_agent - Naz (this project). The ML policy trained by
+  imitation learning; this is what the coursework delivery is about.
+- hackathon_winner_agent / v7_resistance_agent - Adyansh Gupta. The expert
+  agent(s) used to generate training demonstrations. Not part of this
+  project's ML work.
+- hybrid_phase_agent, mcts_lite_hex_agent, minimax_lite_hex_agent,
+  smart_hex_agent, threat_adaptive_dijkstra_agent - Naz, from earlier
+  hackathon work. These are algorithm-based (search/heuristic) agents, not
+  machine-learning agents. They were used only as structured opponents to
+  generate varied training data for the expert to respond to.
+- Any other agent discovered from external_agents/ that is not in the list
+  above will show "Unknown / unspecified origin" until credited.
+
+## Exporting and importing game sessions
+
+Any loaded game (replay or live) can be exported with the
+"Export game session (JSON)" button. The exported file uses the same schema
+as the training data (one record per move: board_before, board_after,
+selected_move, agent_name, etc.), so it can be:
+
+- re-imported into this demo with "Import game session (JSON)" for replay, or
+- dropped into the dataset-building scripts (e.g. scripts/build_combined_dataset.py-style
+  tooling) as an additional source of full-state game logs.
+
+Importing switches the page to replay mode automatically.

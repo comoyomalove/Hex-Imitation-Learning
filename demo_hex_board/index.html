@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hex-ML Demo Board</title>
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <main class="app">
@@ -26,8 +26,16 @@
     </section>
 
     <section class="panel controls">
-      <div class="field"><label for="playerA">Player A = Player 1 / Blue / left-to-right</label><select id="playerA"></select></div>
-      <div class="field"><label for="playerB">Player B = Player 2 / Red / top-to-bottom</label><select id="playerB"></select></div>
+      <div class="field">
+        <label for="playerA">Player A = Player 1 / Blue / left-to-right</label>
+        <select id="playerA"></select>
+        <small id="playerAInfo" class="agent-info">-</small>
+      </div>
+      <div class="field">
+        <label for="playerB">Player B = Player 2 / Red / top-to-bottom</label>
+        <select id="playerB"></select>
+        <small id="playerBInfo" class="agent-info">-</small>
+      </div>
       <div class="field wide"><label for="gameSelect">Replay log</label><select id="gameSelect"></select></div>
       <button id="loadGame">Load game</button>
     </section>
@@ -68,16 +76,25 @@
       <input id="moveSlider" type="range" min="0" max="0" value="0" />
     </section>
 
+    <section class="panel export-import">
+      <button id="exportGame">Export game session (JSON)</button>
+      <label for="importGameFile" class="file-label">Import game session (JSON)</label>
+      <input id="importGameFile" type="file" accept="application/json" />
+      <span id="exportImportStatus">Export works for any loaded or live game. Imported files use the same schema as training data and can be replayed or fed back into dataset tooling.</span>
+    </section>
+
     <section class="panel">
       <h2>Demo notes</h2>
       <ul>
         <li><strong>Replay saved game</strong> disables agent dropdowns so old logs are not confused with new matches.</li>
         <li><strong>Start new live game</strong> disables replay selection and requires the optional Python backend.</li>
         <li>Live backend logs include move timings and are saved under logs/games/demo_live.</li>
+        <li>Agent descriptions below each dropdown show who created the agent and why it was made.</li>
+        <li>Exported game sessions use the exact JSON schema used for training data, so they can be re-imported for replay or reused for dataset building.</li>
       </ul>
     </section>
   </main>
-  <script src="sample_games.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="sample_games.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
