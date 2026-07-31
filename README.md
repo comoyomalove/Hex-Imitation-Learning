@@ -104,3 +104,26 @@ mismatch was found, fixed, and is covered by a regression test
   perspective) and reward design for a hybrid IL-to-RL extension.
 - Held-out benchmark comparison of the three model stages.
 - Visualization polish.
+
+## Where to look first (key classes and functions)
+
+If you only have time to skim, these are the pieces that matter most:
+
+| What | Where | Why it matters |
+|---|---|---|
+| Trained agent (the ML model) | `src/hex_ml/agents/trained_agent.py` -> `TrainedHexAgent`, `mask_illegal_moves` | Loads the trained weights, encodes the board, predicts a move, masks illegal cells. This is the delivered agent. |
+| Policy network architecture | `src/hex_ml/training/model.py` -> `TinyHexPolicyNet` | The actual neural network: board in, per-cell move scores out. |
+| State encoding | `src/hex_ml/encoding/board_encoder.py` -> `encode_board_channels` | Defines what the network sees (4-channel board state). |
+| Training loop | `scripts/train_11x11.py` -> `main` | Where imitation learning happens: loads records, trains `TinyHexPolicyNet` with cross-entropy against expert moves. |
+| Dataset construction | `src/hex_ml/data/dataset_builder.py` -> `imitation_records_from_game_log` | Turns a raw game log into (state, expert action) training pairs. |
+| Leakage-free splitting | `src/hex_ml/data/splitting.py` -> `split_game_ids`, `assert_no_game_id_leakage` | Ensures train/validation/test never share a game. |
+| External/expert agent adapter | `src/hex_ml/agents/gamelib_wrapper.py` -> `GamelibAgentWrapper` | Generic loader so any hackathon-style agent (expert or opponent) can be called the same way. |
+| Expert agent specifically | `src/hex_ml/agents/expert_wrapper.py` -> `ExpertAgentWrapper` | The winner agent (Adyansh Gupta) used only to generate/label training data. |
+| Opponent auto-discovery | `src/hex_ml/agents/discovery.py` -> `discover_gamelib_agents` | Finds every agent under `external_agents/` automatically. |
+| Data generation with structured opponents | `scripts/generate_structured_opponent_dataset.py` | Explains and implements why algorithm-based opponents were used instead of random play. |
+| Combining datasets | `scripts/build_combined_dataset.py` | Merges the structured and DAgger-round datasets with traceable provenance. |
+| Phase-based evaluation | `scripts/analyze_phase_performance.py` -> `phase_from_record` | Breaks down accuracy by opening/midgame/endgame. |
+| Tests | `tests/` | 37 tests covering board rules, encoding, splitting/leakage, and the gamelib orientation fix. |
+
+Everything else (baselines, demo server, analysis scripts) is supporting
+infrastructure around these core pieces.
