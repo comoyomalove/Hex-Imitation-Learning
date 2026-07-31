@@ -1,4 +1,12 @@
-"""Inference wrapper for a trained Hex imitation policy."""
+"""Inference wrapper for the trained Hex imitation-learning policy.
+
+This is the delivered ML agent for this course: a PyTorch policy network
+(TinyHexPolicyNet, see src/hex_ml/training/model.py) trained by behavioral
+cloning on expert demonstrations. At inference time it only uses its own
+learned weights - it never calls the expert/winner agent - which is the
+key distinction between imitation learning (train once, offline, on logged
+expert moves) and having the model consult an expert live during play.
+"""
 
 from __future__ import annotations
 from pathlib import Path
@@ -13,6 +21,13 @@ from hex_ml.training.model import TinyHexPolicyNet
 def mask_illegal_moves(
     logits: torch.Tensor, legal_moves: list[Move], board_size: int
 ) -> torch.Tensor:
+    """Zero out (effectively disable) every board cell that is not a legal move.
+
+    The network outputs one raw score per cell, including occupied cells.
+    Without this step the model could "choose" an illegal move if it scored
+    an occupied cell highest. Masking guarantees every move the agent plays
+    is legal, regardless of what the network learned.
+    """
     if logits.ndim == 2:
         if logits.shape[0] != 1:
             raise ValueError(
@@ -37,6 +52,8 @@ def mask_illegal_moves(
 
 
 class TrainedHexAgent:
+    """The imitation-learning agent: loads trained weights, plays legal moves only."""
+
     name = "trained_imitation_agent"
     agent_type = "trained_model"
 
@@ -48,6 +65,7 @@ class TrainedHexAgent:
     def from_checkpoint(
         cls, checkpoint_path: str | Path, map_location: str = "cpu"
     ) -> "TrainedHexAgent":
+        """Rebuild the trained agent from a saved training checkpoint (.pt file)."""
         checkpoint: dict[str, Any] = torch.load(
             checkpoint_path, map_location=map_location
         )
@@ -75,6 +93,7 @@ class TrainedHexAgent:
 
     @torch.no_grad()
     def choose_move(self, board: np.ndarray, player_to_move: int) -> Move:
+        """Predict the next move: encode board -> network forward pass -> mask -> argmax."""
         validate_board(board)
         legal_moves = get_legal_moves(board)
         if not legal_moves:

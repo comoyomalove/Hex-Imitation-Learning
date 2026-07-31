@@ -1,4 +1,11 @@
-"""Board encoders for imitation-learning models."""
+"""Board encoders for imitation-learning models.
+
+The board is encoded as a full state (own stones, opponent stones, empty
+cells, whose turn it is), not as move history. This matches the
+behavioral-cloning framing used throughout this project: the network learns a
+mapping from "current state" to "expert's action", so its input must fully
+describe the state at decision time.
+"""
 
 from __future__ import annotations
 

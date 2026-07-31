@@ -18,10 +18,10 @@ cross-entropy (see scripts/train_11x11.py).
 
 ### Provided / external (credit: Adyansh Gupta)
 
-- Hackaton-Winner-Agent/final_agent.py - the original hackathon winner agent,
-  used as the expert/teacher for imitation learning.
+- Hackaton-Winner-Agent/final_agent.py - the original hackathon-winning agent,
+  created by Adyansh Gupta, used as the expert/teacher for imitation learning.
 - external_agents/other_gamelib_agents/v7_resistance_agent/ - a later candidate
-  expert agent by the same author.
+  expert agent, also created by Adyansh Gupta.
 - The aica-gamelib package (pip dependency, imported as gamelib) provides the
   Hex game framework these agents are built on.
 

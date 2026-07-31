@@ -1,7 +1,14 @@
-from __future__ import annotations
-import json
-import random
-from pathlib import Path
+"""Merge the structured-opponent dataset with the DAgger-round dataset.
+
+Combines two training-data sources into one file, keeping provenance so the
+mixture is traceable from the code alone:
+- STRUCTURED: expert-vs-structured-opponent games (see
+  generate_structured_opponent_dataset.py).
+- DAGGER: additional states/corrections collected in a DAgger-style round
+  (the trained agent's own visited states, re-labeled with expert moves).
+Splitting is still done by game_id (see hex_ml.data.splitting) to avoid
+leakage between the merged sources.
+"""
 
 STRUCTURED = Path('data/processed/structured_11x11_expanded_5000_imitation_records.jsonl')
 DAGGER = Path('data/processed/dagger_round2_smartopen_3000_records.jsonl')

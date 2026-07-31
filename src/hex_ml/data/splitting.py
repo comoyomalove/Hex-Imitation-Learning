@@ -1,4 +1,12 @@
-"""Leakage-free dataset splitting helpers."""
+"""Leakage-free dataset splitting helpers.
+
+Splitting is done by game_id, not by individual move/record. Positions from
+the same game are highly correlated (they share most of the board), so
+splitting by move would leak near-duplicate states across train/validation/
+test and make evaluation look better than it really is. split_game_ids keeps
+every move from one game entirely inside a single split, and
+assert_no_game_id_leakage checks that no game_id ever appears in two splits.
+"""
 
 from __future__ import annotations
 import json
@@ -8,6 +16,10 @@ from typing import Iterable
 from hex_ml.data.schemas import ImitationRecord
 
 SplitMap = dict[str, list[str]]
+
+
+def unique_game_ids(records: Iterable[ImitationRecord]) -> list[str]:
+    return sorted({record.game_id for record in records})
 
 
 def unique_game_ids(records: Iterable[ImitationRecord]) -> list[str]:

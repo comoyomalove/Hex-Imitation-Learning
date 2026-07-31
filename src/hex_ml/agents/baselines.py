@@ -1,3 +1,9 @@
+"""Non-ML baseline agents used only as sanity-check opponents.
+
+These do not learn anything; they exist to give the trained imitation agent
+(and the dataset-generation pipeline) an easy opponent to validate against.
+They are not part of the delivered machine-learning model.
+"""
 from __future__ import annotations
 import random
 import numpy as np
@@ -5,6 +11,8 @@ from hex_ml.core.board import Move, get_legal_moves, validate_board
 
 
 class FirstLegalAgent:
+    """Always plays the first legal move found; useful for smoke tests."""
+
     name = "first_legal_agent"
     agent_type = "baseline_first_legal"
 
@@ -17,6 +25,8 @@ class FirstLegalAgent:
 
 
 class RandomLegalAgent:
+    """Plays a uniformly random legal move; the weakest baseline opponent."""
+
     name = "random_legal_agent"
     agent_type = "baseline_random"
 

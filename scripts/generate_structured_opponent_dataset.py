@@ -1,22 +1,11 @@
-from __future__ import annotations
+"""Generate expert-vs-structured-opponent training games for imitation learning.
 
-import argparse
-import json
-import time
-from concurrent.futures import ProcessPoolExecutor, as_completed
-from datetime import datetime, timezone
-from pathlib import Path
-
-from hex_ml.agents.discovery import discover_gamelib_agents
-from hex_ml.agents.expert_wrapper import ExpertAgentWrapper
-from hex_ml.agents.gamelib_wrapper import GamelibAgentWrapper
-from hex_ml.core.board import PLAYER_1, PLAYER_2, create_empty_board, get_legal_moves
-from hex_ml.core.constants import DEFAULT_BOARD_SIZE
-from hex_ml.core.game import apply_move, game_status, other_player
-from hex_ml.data.dataset_builder import imitation_records_from_game_log, save_imitation_records_jsonl
-from hex_ml.data.game_log import board_to_list, replay_game_log, save_game_log
-from hex_ml.data.schemas import MoveLogRecord
-from hex_ml.data.splitting import save_split_manifest, split_records_by_game_id
+This deliberately uses algorithm-based opponents (from
+external_agents/other_gamelib_agents/, Naz's earlier hackathon agents) rather
+than a random-move opponent. Structured opponents create more strategically
+meaningful board positions for the expert to react to, which produces more
+useful training data than expert-vs-random games would.
+"""
 
 
 def play_game(game_id, board_size, expert_starts, opponent_spec, output_dir):

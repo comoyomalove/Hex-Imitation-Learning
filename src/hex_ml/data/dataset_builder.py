@@ -1,3 +1,11 @@
+"""Converts a full-state game log into imitation-learning training records.
+
+Each game log contains moves from both the expert and its opponent. This
+module filters down to only the expert's moves (agent_type == "winner_agent"
+by default) and reshapes each one into a (state, action) pair: the board
+before the move, and the move the expert chose. These records are what
+scripts/train_11x11.py trains on.
+"""
 from __future__ import annotations
 import json
 from dataclasses import asdict

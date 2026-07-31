@@ -1,4 +1,13 @@
-"""Small imitation policy model for Hex smoke tests."""
+"""Trained policy network: the "brain" of the delivered imitation-learning agent.
+
+TinyHexPolicyNet takes the 4-channel encoded board (see
+src/hex_ml/encoding/board_encoder.py) and outputs one score per board cell.
+The highest-scoring legal cell (after masking in
+src/hex_ml/agents/trained_agent.py) is the agent's chosen move. This is a
+small fully-connected network by design - simple enough to train quickly from
+imitation data, while still learning a real board -> move mapping instead of
+following hand-written rules.
+"""
 
 from __future__ import annotations
 import torch

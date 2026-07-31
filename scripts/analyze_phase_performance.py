@@ -15,6 +15,12 @@ from hex_ml.agents.trained_agent import TrainedHexAgent
 
 
 def phase_from_record(record: dict) -> str:
+    """Classify a position as opening/midgame/endgame by fraction of the board filled.
+
+    This is a simple heuristic (first third of moves = opening, etc.), used
+    only to break down evaluation accuracy by game phase for analysis
+    reporting. It has no effect on training.
+    """
     if "phase" in record and record["phase"]:
         return str(record["phase"])
     turn = int(record["turn_number"]); board_size = int(record["board_size"])

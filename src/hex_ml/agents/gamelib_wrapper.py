@@ -1,3 +1,13 @@
+"""Adapter that lets any external hackathon-style Hex agent be called the same way.
+
+Agents in external_agents/other_gamelib_agents/ (and the winner agent in
+Hackaton-Winner-Agent/) are plain Python files with their own agent class and
+their own move-selection logic. This wrapper dynamically loads one such file,
+finds its agent class, and exposes a single common method: choose_move(board,
+player_to_move). This is the mechanism that lets scripts/demo_server.py and
+the dataset-generation scripts treat every external agent identically,
+regardless of who wrote it or how it decides moves internally.
+"""
 from __future__ import annotations
 
 import importlib.util
@@ -33,6 +43,8 @@ class GamelibAgentWrapper:
         self.agent_type = agent_type
         self._agent_class: Any | None = None
         self._load_error: Exception | None = None
+        # Loads the target .py file as its own module and locates the agent
+        # class inside it, so we never have to modify the original agent code.
         self._load_agent_class()
 
     @property

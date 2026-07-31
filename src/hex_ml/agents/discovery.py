@@ -1,3 +1,10 @@
+"""Auto-discovery of external agents for opponents and the demo dropdown.
+
+Scans external_agents/other_gamelib_agents/ and returns one entry per agent
+folder that contains an agent.py or final_agent.py file. Any agent dropped
+into that folder becomes usable by the dataset-generation scripts and appears
+automatically in the demo's live-mode player dropdowns, with no code changes.
+"""
 from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
