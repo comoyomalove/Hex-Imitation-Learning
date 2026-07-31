@@ -16,7 +16,7 @@ cross-entropy (see scripts/train_11x11.py).
 
 ## Attribution: what was provided vs what I built
 
-### Provided / external (credit: [AUTHOR NAME - TO BE FILLED IN])
+### Provided / external (credit: Adyansh Gupta)
 
 - Hackaton-Winner-Agent/final_agent.py - the original hackathon winner agent,
   used as the expert/teacher for imitation learning.
