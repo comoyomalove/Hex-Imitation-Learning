@@ -216,10 +216,17 @@ If you only have time to skim, these are the pieces that matter most:
 Everything else (baselines, demo server, analysis scripts) is supporting
 infrastructure around these core pieces.
 
-## Licence
+## Licences
 
-My own code and content are released under the [MIT licence](LICENSE)
-(Copyright (c) 2026 Naz Akgül).
+| What | Licence | Holder |
+|---|---|---|
+| Code (`src/`, `scripts/`, `tests/`, demo app) | [MIT](LICENSE) | © 2026 Naz Akgül |
+| Data, recorded games, reports/figures, model weights (`data/`, `reports/`, `models/`, `demo_hex_board/sample_games.js`) | [CC BY 4.0](LICENSE-DATA) | © 2026 Naz Akgül and Adyansh Gupta |
+| Adyansh Gupta's agents | MIT (with his permission) | © Adyansh Gupta |
+| `aica-gamelib` (dependency, not included) | MIT | AI Club Aachen e.V. |
+
+When reusing the data or model weights, please credit:
+**'Naz Akgül and Adyansh Gupta (Hex-ML)'**.
 
 ## Third-party code
 
@@ -231,7 +238,8 @@ Some files have their own authors and copyright notices:
   see the LICENSE file in each directory). Many thanks to him for sharing them.
 - `aica-gamelib` — MIT, AI Club Aachen e.V.; a pip dependency, not included here.
 - Generated game data and model weights were produced by playing against
-  Adyansh Gupta's agents.
+  Adyansh Gupta's agents; they are CC BY 4.0, © Naz Akgül and Adyansh Gupta
+  (see [LICENSE-DATA](LICENSE-DATA)).
 
 Full list: [THIRD_PARTY.md](THIRD_PARTY.md). Please also read the
 [Code of Conduct](CODE_OF_CONDUCT.md).

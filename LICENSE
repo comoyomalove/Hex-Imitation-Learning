@@ -21,9 +21,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---------------------------------------------------------------------------
-Scope: this licence covers code and content written by Naz Akgül.
+Scope: this licence covers code written by Naz Akgül.
 The agents in Hackaton-Winner-Agent/ and
 external_agents/other_gamelib_agents/v7_resistance_agent/ are
 © Adyansh Gupta, also MIT-licensed with his permission (see the LICENSE file
 in each of those directories). Other third-party items are listed in
 THIRD_PARTY.md.
+
+Data, recorded games, reports/figures and trained model weights (data/,
+reports/, models/, demo_hex_board/sample_games.js) are NOT under this MIT
+licence: they are © 2026 Naz Akgül and Adyansh Gupta under CC BY 4.0 — see
+LICENSE-DATA.
