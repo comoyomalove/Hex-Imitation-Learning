@@ -21,7 +21,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---------------------------------------------------------------------------
-Scope: this licence covers code and content written by Naz Akgül. It does NOT
-cover the third-party files listed in THIRD_PARTY.md (notably the expert
-agents by Adyansh Gupta), which are used with permission and remain under
-their author's rights.
+Scope: this licence covers code and content written by Naz Akgül.
+The agents in Hackaton-Winner-Agent/ and
+external_agents/other_gamelib_agents/v7_resistance_agent/ are
+© Adyansh Gupta, also MIT-licensed with his permission (see the LICENSE file
+in each of those directories). Other third-party items are listed in
+THIRD_PARTY.md.

@@ -1,17 +1,18 @@
 # Third-party code, dependencies and data
 
 The MIT licence in [LICENSE](LICENSE) covers code written by Naz Akgül.
-The items below are **not** covered by it unless their authors say otherwise.
+The items below are credited to their authors and keep their own copyright notices.
 
 ## Code included in this repository
 
 | Path | Author | Status |
 |---|---|---|
-| `Hackaton-Winner-Agent/final_agent.py` | Adyansh Gupta | Used with permission; not covered by this repository's MIT licence unless its author agrees. |
-| `Hackaton-Winner-Agent/Notes-about-agent-from-Discord.md` | Adyansh Gupta (his explanation of the agent, shared on Discord) | Used with permission; not covered by this repository's MIT licence unless its author agrees. |
-| `external_agents/other_gamelib_agents/v7_resistance_agent/` | Adyansh Gupta | Used with permission; not covered by this repository's MIT licence unless its author agrees. |
+| `Hackaton-Winner-Agent/final_agent.py` | Adyansh Gupta | MIT-licensed with the author's permission (© Adyansh Gupta). See `Hackaton-Winner-Agent/LICENSE`. |
+| `Hackaton-Winner-Agent/Notes-about-agent-from-Discord.md` | Adyansh Gupta (his explanation of the agent, shared on Discord) | MIT-licensed with the author's permission (© Adyansh Gupta). See `Hackaton-Winner-Agent/LICENSE`. |
+| `external_agents/other_gamelib_agents/v7_resistance_agent/` | Adyansh Gupta | MIT-licensed with the author's permission (© Adyansh Gupta). See `external_agents/other_gamelib_agents/v7_resistance_agent/LICENSE`. |
 
-If you want to reuse these files, please ask their author.
+Adyansh Gupta generously agreed to share these agents under MIT. When you reuse them,
+please keep his copyright notice and credit him.
 
 ## Dependencies (installed, not redistributed)
 

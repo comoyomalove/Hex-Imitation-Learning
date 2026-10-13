@@ -43,7 +43,9 @@ for live matches.
 - Credit external code and data sources (see "Attribution" in the README).
 - By contributing you agree that your contribution is released under the
   [MIT licence](LICENSE). Files listed in [THIRD_PARTY.md](THIRD_PARTY.md)
-  belong to their authors; please do not relicense or copy them elsewhere.
+  keep their authors' copyright notices. Adyansh Gupta's agents are
+  MIT-licensed with the author's permission (© Adyansh Gupta); please keep
+  his notice and credit when reusing them.
 
 ## Be kind
 

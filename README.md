@@ -223,12 +223,12 @@ My own code and content are released under the [MIT licence](LICENSE)
 
 ## Third-party code
 
-Some files are **not** covered by the MIT licence:
+Some files have their own authors and copyright notices:
 
 - `Hackaton-Winner-Agent/` and
   `external_agents/other_gamelib_agents/v7_resistance_agent/` — agents by
-  Adyansh Gupta, used with permission; not covered by this repository's MIT
-  licence unless their author agrees.
+  Adyansh Gupta, MIT-licensed with the author's permission (© Adyansh Gupta;
+  see the LICENSE file in each directory). Many thanks to him for sharing them.
 - `aica-gamelib` — MIT, AI Club Aachen e.V.; a pip dependency, not included here.
 - Generated game data and model weights were produced by playing against
   Adyansh Gupta's agents.
