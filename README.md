@@ -3,6 +3,25 @@
 Naz Akgül's first machine-learning project. It trains a neural-network Hex
 agent through imitation learning (behavioral cloning) from a strong expert agent.
 
+## How this project started
+
+This is my very first machine-learning project, and the first time I trained a
+model. I got the idea to try imitation learning after taking part in the
+**AI Club Aachen e.V. Hex game-AI hackathon** (June 2026), where my friend
+**Adyansh Gupta**'s agents won. Adyansh later shared a second agent, which
+gave me two experts to learn from.
+
+Heartfelt thanks to **AI Club Aachen e.V.** for the hackathon and the game
+framework, and to **Adyansh** for generously letting me learn from his agents.
+
+<!-- Photos from the hackathon: add later -->
+
+To be honest about where it stands: with the compute I had at the time I could
+not generate more data or train for longer, so the agent is still a beginner.
+Ideas and contributions are very welcome — see
+[Room for improvement](#room-for-improvement--ideas-welcome),
+[CONTRIBUTING.md](CONTRIBUTING.md) and [docs/IDEAS.md](docs/IDEAS.md).
+
 ## Results at a glance
 
 - **Move agreement with the expert:** the delivered model picks exactly the
@@ -56,6 +75,9 @@ cross-entropy (see scripts/train_11x11.py).
   Platform) provides the Hex game engine these agents are built on. It is
   MIT-licensed, copyright AI Club Aachen. It is installed via `requirements.txt`
   and not redistributed in this repository.
+
+See [THIRD_PARTY.md](THIRD_PARTY.md): these files are not covered by this
+repository's MIT licence.
 
 ### My earlier hackathon agents (used as structured opponents for data generation)
 
@@ -193,3 +215,23 @@ If you only have time to skim, these are the pieces that matter most:
 
 Everything else (baselines, demo server, analysis scripts) is supporting
 infrastructure around these core pieces.
+
+## Licence
+
+My own code and content are released under the [MIT licence](LICENSE)
+(Copyright (c) 2026 Naz Akgül).
+
+## Third-party code
+
+Some files are **not** covered by the MIT licence:
+
+- `Hackaton-Winner-Agent/` and
+  `external_agents/other_gamelib_agents/v7_resistance_agent/` — agents by
+  Adyansh Gupta, used with permission; not covered by this repository's MIT
+  licence unless their author agrees.
+- `aica-gamelib` — MIT, AI Club Aachen e.V.; a pip dependency, not included here.
+- Generated game data and model weights were produced by playing against
+  Adyansh Gupta's agents.
+
+Full list: [THIRD_PARTY.md](THIRD_PARTY.md). Please also read the
+[Code of Conduct](CODE_OF_CONDUCT.md).
