@@ -146,6 +146,31 @@ delivered model's performance and are kept only as development history.
 - Held-out benchmark comparison of the three model stages.
 - Visualization polish.
 
+## Room for improvement — ideas welcome
+
+This is my first machine-learning project, and there is a lot left to try.
+Suggestions, questions and pull requests are welcome (see
+[CONTRIBUTING.md](CONTRIBUTING.md) and ready-made idea write-ups in
+[docs/IDEAS.md](docs/IDEAS.md)). Honest list of open directions:
+
+- **Stronger training with more compute.** The current policy is a small
+  fully connected network trained on a laptop GPU. A CNN or residual network,
+  longer runs and more data are likely to help.
+- **RL fine-tuning via reward and environment design.** Start from the
+  imitation policy and fine-tune with reinforcement learning: a reset/step
+  environment, legal-action masks, acting-player reward perspective, and
+  rewards built only from checkable game facts (wins, threats, blocks).
+- **Endgame weakness.** Top-1 agreement with the expert drops to 61.1% in the
+  endgame (vs ~72% in the opening). Targeted endgame data or search at the end
+  of the game are open questions.
+- **Evaluation against random and heuristic bots.** After the orientation fix
+  there is no trustworthy win-rate evaluation against random play or the
+  heuristic agents. A clean benchmark would be very valuable.
+- **Board-size generalisation.** Everything is trained on 11x11. Whether a
+  policy can transfer to other board sizes is untested.
+- **Better visualisations.** Real training curves, move-probability heatmaps
+  and a replay GIF would make results easier to read.
+
 ## Where to look first (key classes and functions)
 
 If you only have time to skim, these are the pieces that matter most:

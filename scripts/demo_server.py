@@ -42,7 +42,7 @@ GAMES: dict[str, dict[str, Any]] = {}
 AGENT_CREDITS: dict[str, dict[str, str]] = {
     "trained_imitation_agent": {
         "author": "Naz (this project)",
-        "note": "ML policy trained by imitation learning - the subject of this coursework delivery.",
+        "note": "ML policy trained by imitation learning - the subject of this project.",
     },
     "hackathon_winner_agent": {
         "author": "Adyansh Gupta",

@@ -1,6 +1,6 @@
 """Inference wrapper for the trained Hex imitation-learning policy.
 
-This is the delivered ML agent for this course: a PyTorch policy network
+This is the delivered ML agent of this project: a PyTorch policy network
 (TinyHexPolicyNet, see src/hex_ml/training/model.py) trained by behavioral
 cloning on expert demonstrations. At inference time it only uses its own
 learned weights - it never calls the expert/winner agent - which is the
