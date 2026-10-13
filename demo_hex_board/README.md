@@ -72,7 +72,7 @@ use the URL, so the page can reach the backend).
 Each dropdown shows a short description of who made the agent and why:
 
 - trained_imitation_agent - Naz (this project). The ML policy trained by
-  imitation learning; this is what the coursework delivery is about.
+  imitation learning; this is what the project is about.
 - hackathon_winner_agent / v7_resistance_agent - Adyansh Gupta. The expert
   agent(s) used to generate training demonstrations. Not part of this
   project's ML work.

@@ -2,7 +2,7 @@
 
 This is a curated summary of the working development diary, design
 decisions, and reflection notes. Full raw diary is kept in the working
-project only and is not part of the course delivery.
+project only and is not part of this repository.
 
 ---
 
@@ -105,7 +105,7 @@ provenance from the artifact itself, not from conversation history.
   outcome-based reward (win/loss) and distinct again from search/tree
   pruning, which is a decision-time action-selection method, not a reward
   design choice at all. Conflating these three ideas was an early source of
-  confusion that is worth documenting for the essay/course discussion this
+  confusion that is worth documenting for the reward-design essay this
   project also supports.
 
 ---

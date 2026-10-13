@@ -1,7 +1,34 @@
 # Hex-ML: Imitation Learning Agent for 11x11 Hex
 
-Course delivery repository. This project trains a neural-network Hex agent
-through imitation learning (behavioral cloning) from a strong expert agent.
+Naz Akgül's first machine-learning project. It trains a neural-network Hex
+agent through imitation learning (behavioral cloning) from a strong expert agent.
+
+## Results at a glance
+
+- **Move agreement with the expert:** the delivered model picks exactly the
+  expert's move in **70.8%** of positions from held-out games (games never seen
+  in training), and the expert's move is among its top 5 guesses in **92.9%**.
+  Source: `reports/training/imitation_11x11_structured_plus_dagger_round2_combined_20260729_011307.md`
+  (best checkpoint, epoch 32, selected by lowest validation loss).
+- **Playing strength:** the agent does **not** beat the expert. After the
+  board-orientation fix (see "Rules and orientation"), it lost every recorded
+  game against the expert, usually within ~23 moves.
+
+## Current limitations
+
+- The agent cannot yet beat strong agents. It imitates the expert well on
+  familiar positions but breaks down in positions its own mistakes create
+  (distribution shift), and it is weakest in the endgame.
+- Training was limited by available compute: a small fully connected network
+  (`TinyHexPolicyNet`, not a CNN) trained on a laptop GPU (Apple MPS).
+- An early result that showed the trained agent "beating the expert 5/5" was
+  caused by a board-orientation bug, not real play. It is not a valid result.
+- The planned next step is reinforcement learning built on reward and
+  environment design: starting from this imitation policy and rewarding
+  checkable game conditions (wins, threats, blocks, connection progress).
+  This idea is written up in an essay, *Designing Reward and Environment
+  Signals for Reinforcement Learning in Hex* (unpublished), and summarised
+  under "Future work" below.
 
 ## What this project is
 
@@ -16,14 +43,19 @@ cross-entropy (see scripts/train_11x11.py).
 
 ## Attribution: what was provided vs what I built
 
-### Provided / external (credit: Adyansh Gupta)
+### Provided / external
 
-- Hackaton-Winner-Agent/final_agent.py - the original hackathon-winning agent,
-  created by Adyansh Gupta, used as the expert/teacher for imitation learning.
-- external_agents/other_gamelib_agents/v7_resistance_agent/ - a later candidate
-  expert agent, also created by Adyansh Gupta.
-- The aica-gamelib package (pip dependency, imported as gamelib) provides the
-  Hex game framework these agents are built on.
+- **Expert/teacher agents - Adyansh Gupta (used with permission).**
+  - Hackaton-Winner-Agent/final_agent.py - the original hackathon-winning agent,
+    used as the expert/teacher for imitation learning.
+  - external_agents/other_gamelib_agents/v7_resistance_agent/ - a later
+    candidate expert agent.
+- **Hex game framework - AI Club Aachen e.V.** The
+  [aica-gamelib](https://github.com/ai-club-aachen/game-ai-platform) package
+  (pip dependency, imported as `gamelib`; part of the AI Club Aachen Game AI
+  Platform) provides the Hex game engine these agents are built on. It is
+  MIT-licensed, copyright AI Club Aachen. It is installed via `requirements.txt`
+  and not redistributed in this repository.
 
 ### My earlier hackathon agents (used as structured opponents for data generation)
 
@@ -36,7 +68,7 @@ cross-entropy (see scripts/train_11x11.py).
 These are algorithm-based (search/heuristic) agents, not ML agents. They were
 used to create varied board states for the expert to respond to.
 
-### Built for this course (the delivery focus)
+### Built by me for this project (the focus)
 
 - src/hex_ml/ - board logic, encoding, wrappers, dataset tools, training code,
   and the trained imitation agent (src/hex_ml/agents/trained_agent.py).
@@ -87,7 +119,7 @@ trained imitation agent as Player A (Player 1 / Blue / left-to-right) against
 any of the algorithm-based agents or the expert as Player B (Player 2 / Red /
 top-to-bottom) - and step through the game move by move with per-move timing.
 
-Known limitations (future polish): visual styling is functional rather than
+Known demo limitations (future polish): visual styling is functional rather than
 final, and the live mode requires the local Python backend.
 
 ## Rules and orientation
@@ -95,13 +127,22 @@ final, and the live mode requires the local Python backend.
 Board: 11x11 Hex. Player 1 connects left-to-right; Player 2 connects
 top-to-bottom (matching gamelib player 0 / player 1). An early orientation
 mismatch was found, fixed, and is covered by a regression test
-(tests/test_gamelib_orientation.py).
+(tests/test_gamelib_orientation.py). Win/loss results produced before the fix
+(including an apparent "5/5 wins against the expert") are invalid.
 
-## Future work (not part of this delivery)
+Note on figures: the charts in `reports/figures/` come from early smoke-test
+and pilot runs (a few games or a 5-epoch toy run). They do not show the
+delivered model's performance and are kept only as development history.
+
+## Future work
 
 - Convolutional policy network (CNN) to better capture spatial Hex patterns.
 - A formal RL environment (reset/step API, legal-action masks, reward
-  perspective) and reward design for a hybrid IL-to-RL extension.
+  perspective) and reward design for a hybrid IL-to-RL extension. The design
+  argument - that reward design and environment design are the same problem,
+  because the environment decides which strategic ideas can be checked and
+  rewarded - is developed in the unpublished essay *Designing Reward and
+  Environment Signals for Reinforcement Learning in Hex*.
 - Held-out benchmark comparison of the three model stages.
 - Visualization polish.
 
@@ -111,7 +152,7 @@ If you only have time to skim, these are the pieces that matter most:
 
 | What | Where | Why it matters |
 |---|---|---|
-| Trained agent (the ML model) | `src/hex_ml/agents/trained_agent.py` -> `TrainedHexAgent`, `mask_illegal_moves` | Loads the trained weights, encodes the board, predicts a move, masks illegal cells. This is the delivered agent. |
+| Trained agent (the ML model) | `src/hex_ml/agents/trained_agent.py` -> `TrainedHexAgent`, `mask_illegal_moves` | Loads the trained weights, encodes the board, predicts a move, masks illegal cells. This is the final agent. |
 | Policy network architecture | `src/hex_ml/training/model.py` -> `TinyHexPolicyNet` | The actual neural network: board in, per-cell move scores out. |
 | State encoding | `src/hex_ml/encoding/board_encoder.py` -> `encode_board_channels` | Defines what the network sees (4-channel board state). |
 | Training loop | `scripts/train_11x11.py` -> `main` | Where imitation learning happens: loads records, trains `TinyHexPolicyNet` with cross-entropy against expert moves. |

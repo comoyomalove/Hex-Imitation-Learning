@@ -1,11 +1,10 @@
 # Hex-ML: Project Report (Imitation Learning Agent)
 
-Course: Advanced Game AI (demonstrator requirement)
-Deliverable focus: Imitation Learning agent for 11x11 Hex
+Naz Akgül's first machine-learning project: an imitation-learning agent for
+11x11 Hex.
 
-This report follows the four sections required by the course specification:
-application context, data structures, demonstrator functionality, and
-evaluation results / limitations.
+This report has four sections: application context, data structures,
+demonstrator functionality, and evaluation results / limitations.
 
 ---
 
@@ -37,16 +36,18 @@ the companion architecture document).
 
 ### Who provided what
 - The expert ("winner") agent and a later candidate expert ("v7") agent were
-  created by Adyansh Gupta, the winner of the hackathon this project's game
-  library and expert agent originate from. They are provided externally and
-  used here only as data-generation/evaluation opponents, not modified.
+  created by Adyansh Gupta, the winner of the AI Club Aachen Hex hackathon,
+  and are used with his permission. They are used here only as
+  data-generation/evaluation opponents, not modified.
+- The Hex game framework is `aica-gamelib` by AI Club Aachen e.V.
+  (https://github.com/ai-club-aachen/game-ai-platform, MIT licence, copyright
+  AI Club Aachen). It is a pip dependency and is not redistributed here.
 - Five earlier algorithm-based (search/heuristic) agents were built by the
   project owner (Naz) in an earlier hackathon. They are not machine-learning
   agents; they are used here only as varied opponents to generate richer
   training data.
 - Everything under `src/hex_ml/`, the training/evaluation scripts, the test
-  suite, and the trained model are built specifically for this course
-  project.
+  suite, and the trained model were built by Naz for this project.
 
 ---
 
@@ -171,8 +172,16 @@ this further is listed as future work.
 | Stage | Dataset | Best validation top-1 | Best validation top-5 |
 |---|---|---:|---:|
 | Structured-only baseline | structured expert dataset | ~70.7% | ~93.1% |
-| DAgger-only experiment | DAgger correction dataset | ~87.1% | ~97.4% |
-| Combined (delivered) | structured + DAgger | ~73-74%* | ~93-94%* |
+| DAgger-only experiment | DAgger correction dataset | ~86.8%* | ~97.4% |
+| Combined (final model) | structured + DAgger | **70.8%** | **92.9%** |
+
+Accuracy here means exact-move agreement with the expert on held-out
+validation games (split by game id, so no validation game was seen in
+training). Figures are the best checkpoint, selected by lowest validation
+loss, as recorded in the per-run reports under `reports/training/`. The
+final model's best checkpoint is epoch 32 of 100. (An earlier version of this
+report gave "~73-74%" for the final model; that figure matched later epochs,
+not the saved checkpoint, and has been corrected.)
 
 *The DAgger-only model's high score reflects a narrower, easier
 distribution (short, learner-induced games), not superior general play; it
@@ -211,7 +220,9 @@ and is listed as future work.
 5. **Orientation bug found and fixed.** An early version of the local
    win-condition logic had Player 1/Player 2 connection directions swapped
    relative to `gamelib`. This produced impossible-looking results (e.g. the
-   trained agent appearing to beat the expert 5/5). It was diagnosed by
+   trained agent appearing to beat the expert 5/5). **That result is invalid:
+   after the fix, the trained agent did not win any recorded game against the
+   expert.** It was diagnosed by
    comparing against `gamelib.hex.engine.Engine`, fixed in
    `src/hex_ml/core/game.py`, and is now covered by a regression test
    (`tests/test_gamelib_orientation.py`). Results generated before the fix
@@ -222,6 +233,18 @@ and is listed as future work.
 6. **No reinforcement-learning reward is used or evaluated.** This is a
    deliberate scope boundary. See the architecture document's "future work"
    section for what an RL migration would require.
+
+### Current limitations
+
+- The agent cannot yet beat strong agents, including the expert it learned
+  from.
+- Training was limited by available compute: a small fully connected network
+  trained on a laptop GPU (Apple MPS); a CNN and larger runs were not feasible
+  within that budget.
+- The next step is reinforcement learning via reward and environment design,
+  starting from this imitation policy. The approach is developed in the
+  unpublished essay *Designing Reward and Environment Signals for
+  Reinforcement Learning in Hex*.
 
 ### Reproducibility
 All datasets were split by game id with a fixed seed; split manifests are

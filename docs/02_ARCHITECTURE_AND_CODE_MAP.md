@@ -87,8 +87,8 @@ expert is only used offline, for data generation.
 |---|---|
 | The trained model weights | `models/final/imitation_11x11_best.pt` |
 | Model provenance (which dataset trained it) | embedded in checkpoint dict: `run_id`, `dataset_path`, `split_manifest`, `metrics` |
-| The expert agent | `Hackaton-Winner-Agent/final_agent.py` (created by Adyansh Gupta, hackathon winner; external, credited) |
-| The candidate "v7" expert | `external_agents/other_gamelib_agents/v7_resistance_agent/` (created by Adyansh Gupta; external, credited) |
+| The expert agent | `Hackaton-Winner-Agent/final_agent.py` (created by Adyansh Gupta, hackathon winner; external, used with permission) |
+| The candidate "v7" expert | `external_agents/other_gamelib_agents/v7_resistance_agent/` (created by Adyansh Gupta; external, used with permission) |
 | The 5 algorithm-based opponents | `external_agents/other_gamelib_agents/{hybrid_phase_agent, mcts_lite_hex_agent, minimax_lite_hex_agent, smart_hex_agent, threat_adaptive_dijkstra_agent}/` (Naz's earlier hackathon work) |
 | Leakage-free split manifests | `data/splits/*.json` |
 | Training reports (per run) | `reports/training/*.md` |
@@ -121,7 +121,7 @@ expert is only used offline, for data generation.
 
 ---
 
-## 5. Future work (explicitly out of scope for this delivery)
+## 5. Future work (out of scope for this version)
 
 1. **Convolutional policy network.** Replace `TinyHexPolicyNet` with a CNN
    that can learn local Hex patterns (bridges, blocks, edge shapes) more
