@@ -31,4 +31,10 @@ THIRD_PARTY.md.
 Data, recorded games, reports/figures and trained model weights (data/,
 reports/, models/, demo_hex_board/sample_games.js) are NOT under this MIT
 licence: they are © 2026 Naz Akgül and Adyansh Gupta under CC BY 4.0 — see
-LICENSE-DATA.
+LICENSE-DATA (Part A).
+
+Documentation prose (README.md prose, CONTRIBUTING.md, docs/*.md and the PDF
+report "Where to look first -key classes and functions.pdf") is also NOT under
+this MIT licence: it is © 2026 Naz Akgül under CC BY 4.0 — see LICENSE-DATA
+(Part B). Code snippets inside those documents stay under this MIT licence.
+CODE_OF_CONDUCT.md follows the Contributor Covenant, which has its own licence.

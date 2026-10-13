@@ -1,7 +1,7 @@
 # Third-party code, dependencies and data
 
 The MIT licence in [LICENSE](LICENSE) covers code written by Naz Akgül.
-Data, recorded games, reports and model weights are under CC BY 4.0 — see
+Data, recorded games, reports, model weights and documentation prose are under CC BY 4.0 — see
 [LICENSE-DATA](LICENSE-DATA).
 The items below are credited to their authors and keep their own copyright notices.
 

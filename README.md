@@ -222,11 +222,14 @@ infrastructure around these core pieces.
 |---|---|---|
 | Code (`src/`, `scripts/`, `tests/`, demo app) | [MIT](LICENSE) | © 2026 Naz Akgül |
 | Data, recorded games, reports/figures, model weights (`data/`, `reports/`, `models/`, `demo_hex_board/sample_games.js`) | [CC BY 4.0](LICENSE-DATA) | © 2026 Naz Akgül and Adyansh Gupta |
+| Documentation prose (this README, `CONTRIBUTING.md`, `docs/*.md`, the PDF report) — code snippets inside stay MIT | [CC BY 4.0](LICENSE-DATA) | © 2026 Naz Akgül |
 | Adyansh Gupta's agents | MIT (with his permission) | © Adyansh Gupta |
+| `CODE_OF_CONDUCT.md` | Contributor Covenant 2.1 (its own licence and attribution) | see [contributor-covenant.org](https://www.contributor-covenant.org/) |
 | `aica-gamelib` (dependency, not included) | MIT | AI Club Aachen e.V. |
 
 When reusing the data or model weights, please credit:
 **'Naz Akgül and Adyansh Gupta (Hex-ML)'**.
+When reusing the documentation, please credit: **'Naz Akgül (Hex-ML)'**.
 
 ## Third-party code
 
