@@ -246,3 +246,7 @@ Some files have their own authors and copyright notices:
 
 Full list: [THIRD_PARTY.md](THIRD_PARTY.md). Please also read the
 [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Contact
+
+Made by Naz Akgül — portfolio and other projects: [nazakgul.games](https://nazakgul.games). Questions and ideas: [Discussions](https://github.com/comoyomalove/Hex-Imitation-Learning/discussions).
